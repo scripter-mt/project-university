@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../css/contactus.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"> <img src="../image/logo.png"> </a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+
+
+            <ul>
+              <li> <a href="../index.html">Home</a></li>
+              <li> <a href="">About</a></a></li>
+              <li> <a href="">Course</a></li>
+              <li> <a href="">Blog</a></li>
+              <li> <a href="">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+
+      </nav>
+      <div class="text-box">
+        <h1>CONTACT US</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempo  incididunt ut <br >labore et dolore magna aliqua.
+           Ut enim ad minim veniam, quis nostrud
+  </p>
+
+      </div>
+    </section>
+    <section class="location">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3530.5515813320703!2d85.31223850893511!3d27.76197382691742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1feab19cf9c9%3A0xed49a1364fa05138!2sDHAWA%20NEPAL!5e0!3m2!1sne!2snp!4v1641129043413!5m2!1sne!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    </section>
+
+    <section class="contact-us">
+            <div class="row">
+                      <div class="contact-col">
+                                  <div>
+                                        <i class="fa fa-home"></i>
+                                            <span>
+                                              <h5>xyz road, abc building</h5>
+                                              <p>Bangalore, karnatak,in</p>
+                                            </span>
+                                  </div>
+                                  <div>
+                                            <i class="fa fa-phone"></i>
+                                                    <span>
+                                                          <h5>xyz road, abc building</h5>
+                                                          <p>Bangalore, karnatak,in</p>
+                                                      </span>
+
+                                    </div>
+                                    <div>
+                                              <i class="fa fa-envelope-o"></i>
+                                                     <span>
+                                                          <h5>info@easytut.com</h5>
+                                                          <p>Email us your query</p>
+                                                     </span>
+                                    </div>
+
+                              </div>
+                              <div class="contact-col">
+                                      <form class="" action="index.html" method="post">
+
+                                          <input type="text" name="name" placeholder="Enter your name" required>
+                                          <input type="email" name="email" placeholder="Enter your Email" required>
+                                            <input type="text" name="subject" placeholder="Enter Your Subject" required>
+                                          <textarea name="textarea" rows="8" cols="80" required></textarea>
+                                          <button type="submit" name="button" class="red-btn">Send Messages</button>
+                                      </form>
+
+                              </div>
+                  </div>
+    </section>
+
+    <!-- -----------------------------footer-------------------------- -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>lorem something is th e bad having in the sence of nepal and can't be make it correction.</p>
+      <div class="icons">
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+
+      </div>
+      <p>Designed By Manish Thapa Magar</p>
+      <p>Copyright <i class="fa fa-copyright" aria-hidden="true"></i>
+    2022</p>
+    </section>
+
+    <!-- ----------------------script---------------------- -->
+    <script type="text/javascript">
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+      navLinks.style.right="0";
+    }
+      function hideMenu(){
+
+        navLinks.style.right="-200px";
+      }
+    </script>
+  </body>
+</html>
